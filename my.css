@@ -1,2 +1,3 @@
-html {font-family: sans-serif;}
-body {background-color: aquamarine;}
+html {padding: 0; margin: 0; font-family: sans-serif;}
+body {background-color: #f4f4f4;}
+header {width:100%;}
