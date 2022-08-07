@@ -17,6 +17,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -29,14 +30,47 @@ ol, ul {
 
 html {
   height: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
-  padding: 0;
-  margin: 0;
   background-color: #f4f4f4;
   line-height: 1;
 }
-header {width:100%;}
+
+.header {
+    width:100%;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    overflow: hidden;
+}
+.header .logo {
+    display: inline-block;
+    padding: 5pt 10pt;
+    box-shadow: 0px 0px 20px #bebebe00;
+    transition: all 0.3s;
+    font-weight: lighter;
+}
+.header .logo a p {
+    color: rgb(46, 46, 46);
+    font-size: 15pt;
+    text-transform: uppercase;
+    border-bottom: rgb(46, 46, 46) solid 1px;
+    padding-bottom: 2pt;
+
+}
+.header .logo p {
+    padding-top: 1pt;
+    text-align: center;
+    font-size: 7pt;
+    text-transform: lowercase;
+}
+.header .logo:hover {
+    box-shadow: 0px 0px 15px rgba(192, 192, 192, 0.466);
+    padding: 5pt 6pt;
+    background-color: rgb(241, 241, 241);
+}
+
+.introduc {
+    background-image: url(./) no-repeat;
+}
