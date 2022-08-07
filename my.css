@@ -72,5 +72,8 @@ body {
 }
 
 .introduc {
-    background-image: url(./img/intropop.jpg) no-repeat;
+    background-image: url("./img/intropop.jpg");
+    background-position: bottom center;
+    background-size: contain;
+    min-height: 300px;
 }
