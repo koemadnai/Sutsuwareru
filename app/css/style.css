@@ -137,7 +137,7 @@ a {
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 30% auto;
-  padding-top: 25px;
+  padding-top: 100px;
 }
 .whoarewe_exp {
   width: 400px;
@@ -166,7 +166,7 @@ a {
 .whoarewe_conan {
   position: absolute;
   right: 0;
-  top: 20px;
+  top: 95px;
   width: 150px;
 }
 
