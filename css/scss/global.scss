@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wraper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+border-top: 4px $emerald solid;
+}
+
+.main {
+flex: 1 0 auto;
+background: linear-gradient(180deg, white 0%, $maincolorgray 40%, $maincolorgray 100%); 
+padding-top: 320px;
+}
+.footer {
+flex: 0 0 auto;
+}
+
+.container{
+max-width: 760px;
+margin: 0 auto;
+padding: 0 15px;
+}

@@ -1,0 +1,217 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.wraper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  border-top: 4px #1f9b83 solid;
+}
+
+.main {
+  flex: 1 0 auto;
+  background: linear-gradient(180deg, white 0%, #1e1e1e 40%, #1e1e1e 100%);
+  padding-top: 320px;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 300px;
+  background-image: url(./images/headerbackgr.jpg);
+  background-size: cover;
+  background-position: center -80px;
+  border-bottom: 1px #1e1e1e solid;
+  position: relative;
+}
+
+.logo {
+  color: #dff2e6;
+  font-size: 12pt;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #1f9b83;
+  padding: 7px 10px 9px 10px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  border: 1px white solid;
+  transition: all 0.4s;
+}
+.logo:hover {
+  background-color: #1e1e1e;
+}
+
+.shirke {
+  position: absolute;
+  right: 0px;
+  bottom: -8px;
+  width: 225px;
+  height: 213px;
+}
+
+.hslider {
+  position: absolute;
+}
+.hslider ul li {
+  list-style: none;
+}
+
+.whoarewe {
+  position: relative;
+  min-height: 500px;
+  background-image: url(./images/flowr.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 30% auto;
+  padding-top: 25px;
+}
+.whoarewe_exp {
+  width: 400px;
+  float: right;
+  position: relative;
+  z-index: 50;
+  background-color: rgba(255, 255, 255, 0.93);
+  color: #1e1e1e;
+}
+.whoarewe_exp_title {
+  padding-bottom: 10px;
+  float: right;
+}
+.whoarewe_exp_title span {
+  color: #fff;
+  background-color: #1f9b83;
+  padding: 0px 6px;
+  font-weight: 600;
+  font-size: 48px;
+}
+.whoarewe_exp_text {
+  float: right;
+  text-align: right;
+}
+
+.whoarewe_conan {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 150px;
+}
+
+.main {
+  color: white;
+  position: relative;
+  min-height: 800px;
+  font-style: italic;
+}
+.main_exp {
+  width: 400px;
+  background-color: rgba(30, 30, 30, 0.85);
+  padding-bottom: 20px;
+}
+.main_exp_title, .main_exp_text {
+  position: relative;
+  z-index: 50;
+}
+.main .ebisu {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: 20%;
+}
+.main h1 {
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.footer .container {
+  height: 205px;
+  background-image: url(./images/kimono.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto 200px;
+  position: relative;
+}
+.footer_text {
+  position: absolute;
+  bottom: 110px;
+  left: 154px;
+  font-size: 14px;
+  color: #1e1e1e;
+}
+.footer_text span {
+  color: #fff;
+}
